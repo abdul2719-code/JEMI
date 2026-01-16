@@ -104,3 +104,19 @@ v + w
 # Transformasi matriks
 A = {{2, 1}, {-1, 3}}
 ApplyMatrix(A, (1, 2))
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Operasi vektor
+v = np.array([3, 2])
+w = np.array([-1, 4])
+print("v + w =", v + w)
+print("Dot product =", np.dot(v, w))
+
+# Visualisasi
+plt.quiver(0, 0, v[0], v[1], angles='xy', scale_units='xy', scale=1, color='r')
+plt.quiver(0, 0, w[0], w[1], angles='xy', scale_units='xy', scale=1, color='b')
+plt.xlim(-2, 5)
+plt.ylim(-1, 5)
+plt.grid()
+plt.show()
