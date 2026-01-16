@@ -1,0 +1,43 @@
+Nama file: harian/2024-01-16-pembelajaran-aljabar-linear.md
+  # 📚 16 Januari 2024 - Pembelajaran Aljabar Linear
+
+## 🎯 Tujuan Pembelajaran
+Memahami konsep dasar vektor dan matriks untuk pendidikan SMA
+
+## 📖 Konsep yang Dipelajari
+### 1. Vektor dalam Ruang 2D dan 3D
+**Definisi**: 
+\[
+\vec{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}
+\]
+
+**Aplikasi Visual**:
+- Representasi geometris panah
+- Operasi penjumlahan vektor (aturan jajaran genjang)
+- Perkalian skalar: perubahan magnitude
+
+### 2. Matriks dan Transformasi Linear
+**Contoh transformasi rotasi 2D**:
+\[
+R(\theta) = \begin{bmatrix} 
+\cos\theta & -\sin\theta \\ 
+\sin\theta & \cos\theta 
+\end{bmatrix}
+\]
+
+```python
+# Visualisasi dengan Python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Matriks rotasi 45 derajat
+theta = np.pi/4
+R = np.array([[np.cos(theta), -np.sin(theta)],
+              [np.sin(theta), np.cos(theta)]])
+
+# Vektor awal
+v = np.array([1, 0])
+v_rotated = R @ v
+
+print(f"Vektor awal: {v}")
+print(f"Setelah rotasi: {v_rotated}")
