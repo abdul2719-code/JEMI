@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEMI - Journal of Education Mathematics Innovation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        nav {
+            margin: 1.5rem 0;
+        }
+        nav a {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #2980b9;
+        }
+        .card {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 5px 5px 0;
+        }
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📐 JEMI - Journal of Education Mathematics Innovation</h1>
+        <p>Jurnal Digital Pembelajaran Matematika & Inovasi Pengajaran</p>
+    </header>
+    
+    <div class="container">
+        <h2>🎯 Selamat Datang!</h2>
+        <p>Ini adalah jurnal digital dokumentasi perjalanan belajar dan inovasi dalam pendidikan matematika.</p>
+        
+        <nav>
+            <a href="/JEMI/harian/">📅 Jurnal Harian</a>
+            <a href="/JEMI/materi/">📚 Materi Matematika</a>
+            <a href="/JEMI/log-bulanan/">📊 Log Bulanan</a>
+            <a href="/JEMI/Inovasi-pengajaran/">💡 Inovasi Pengajaran</a>
+            <a href="https://github.com/abdul2719-code/JEMI" target="_blank">🐙 GitHub Repository</a>
+        </nav>
+        
+        <div class="card">
+            <h3>📈 Status Website</h3>
+            <p><strong>✅ ONLINE</strong> - GitHub Pages berhasil diaktifkan!</p>
+            <p><strong>📅 Dibuat</strong>: 16 Januari 2024</p>
+            <p><strong>🔄 Update terakhir</strong>: <span id="currentDate"></span></p>
+        </div>
+        
+        <div class="card">
+            <h3>🚀 Konten Tersedia</h3>
+            <ul>
+                <li><a href="/JEMI/materi/aljabar-linear.md">Aljabar Linear</a> - Vektor, matriks, transformasi</li>
+                <li><a href="/JEMI/harian/">3 Entri Harian</a> - Refleksi pembelajaran</li>
+                <li><a href="/JEMI/log-bulanan/2024-januari.md">Log Januari 2024</a> - Progress bulanan</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>🔧 Teknologi</h3>
+            <p>Website ini dibangun dengan:</p>
+            <ul>
+                <li>GitHub Pages - Hosting gratis</li>
+                <li>HTML/CSS - Tampilan website</li>
+                <li>Markdown + LaTeX - Konten matematika</li>
+                <li>Git - Version control</li>
+            </ul>
+        </div>
+        
+        <h3>📞 Kontak & Kolaborasi</h3>
+        <p>Ingin berkolaborasi atau memberikan saran?</p>
+        <p>GitHub: <a href="https://github.com/abdul2719-code" target="_blank">@abdul2719-code</a></p>
+    </div>
+    
+    <footer>
+        <p>JEMI © 2024 - Journal of Education Mathematics Innovation</p>
+        <p>Dibuat dengan ❤️ untuk pendidikan matematika Indonesia</p>
+        <p><small>Terakhir diupdate: <span id="timestamp"></span></small></p>
+    </footer>
+    
+    <script>
+        // Update tanggal otomatis
+        const now = new Date();
+        const options = { 
+            weekday: 'long', 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        };
+        document.getElementById('currentDate').textContent = now.toLocaleDateString('id-ID', options);
+        document.getElementById('timestamp').textContent = now.toLocaleDateString('id-ID', options);
+        
+        // Add active class to current page
+        const currentPage = window.location.pathname;
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPage) {
+                link.style.background = '#2c3e50';
+            }
+        });
+    </script>
+</body>
+</html>
