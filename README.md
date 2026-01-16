@@ -1,7 +1,6 @@
-![JEMI Status](https://img.shields.io/badge/JEMI-Active-brightgreen)
-![Mathematics Education](https://img.shields.io/badge/Field-Mathematics%20Education-blue)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/abdul2719-code/JEMI)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/abdul2719-code/JEMI)
+![JEMI Harian](https://img.shields.io/badge/Jurnal_Harian-3_entries-blue)
+![Streak](https://img.shields.io/badge/Streak-3_days-brightgreen)
+![Last Update](https://img.shields.io/badge/Last_Update-18_Jan_2024-orange)
 # 📐 JEMI - Journal of Education Mathematics Innovation
 
 **Jurnal digital untuk eksplorasi pendidikan matematika, metode pengajaran inovatif, dan refleksi pembelajaran.**
