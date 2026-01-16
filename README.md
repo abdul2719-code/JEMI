@@ -32,3 +32,21 @@
 ---
 
 **"Matematika bukan tentang angka, persamaan, atau algoritma: ia tentang pemahaman." - William Paul Thurston**
+## 📂 Konten Tersedia
+
+### Topik Matematika
+- [Aljabar Linear](/topik/aljabar-linear.md)
+
+### Jurnal Harian
+- [16 Januari 2024](/harian/2024-01-16.md)
+
+### Log Bulanan
+- [Januari 2024](/bulanan/2024-januari.md)
+
+### Inovasi
+- [Metode Pengajaran 2024](/Inovasi%20Pengajaran/metode-2024.md)
+
+## 📊 Statistik
+- Total file: 7
+- Folder: 5
+- Update terakhir: 16 Jan 2024
