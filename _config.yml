@@ -1,0 +1,29 @@
+title: "JEMI - Journal of Education Mathematics Innovation"
+description: "Digital journal for math education and innovative teaching methods"
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  
+# Navigation
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Daily Journal"
+    url: /harian/
+  - title: "Monthly Log"
+    url: /log-bulanan/
+  - title: "Math Materials"
+    url: /materi/
+  - title: "Teaching Innovations"
+    url: /Inovasi-pengajaran/
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+url: "https://abdul2719-code.github.io/JEMI"
+baseurl: "/JEMI"
