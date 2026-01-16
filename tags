@@ -1,0 +1,42 @@
+
+---
+
+#### **B. Buat File Referensi Matematika**
+**Nama file**: `referensi/buku-teks-matematika.md`
+
+**Isi**:
+```markdown
+# 📚 Referensi Buku Teks Matematika
+
+## Aljabar & Linear Algebra
+1. **"Linear Algebra Done Right"** - Sheldon Axler
+   - Level: Universitas
+   - Fokus: Pendekatan konseptual
+   - Link: [Springer](https://link.springer.com/book/10.1007/978-3-031-41026-0)
+
+2. **"Algebra"** - Michael Artin
+   - Level: Lanjutan
+   - Fitur: Contoh aplikasi banyak
+
+## Kalkulus
+1. **"Calculus"** - James Stewart
+   - Level: SMA/Universitas
+   - Kelebihan: Visualisasi bagus
+
+2. **"Calculus Made Easy"** - Silvanus P. Thompson
+   - Level: Pemula
+   - Pendekatan: Intuitif
+
+## Geometri
+1. **"Euclidean and Non-Euclidean Geometries"** - Marvin Greenberg
+   - Cakupan: Luas
+   - Pendekatan: Historis
+
+## Pendidikan Matematika
+1. **"How to Solve It"** - George Pólya
+   - Fokus: Problem solving
+   - Relevansi: Sangat tinggi untuk pengajaran
+
+2. **"Mathematical Mindsets"** - Jo Boaler
+   - Fokus: Psikologi pembelajaran matematika
+   - Aplikasi: Kelas inklusif
